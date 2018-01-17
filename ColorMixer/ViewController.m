@@ -29,7 +29,7 @@ NSString *hello = @"hej";
 - (void)refresh {
     self.colorDisplay.backgroundColor = [self currentColor];
     self.hexLabel.text = [self rgbToHex:self.currentColor];
-    self.hexLabel.text = hello;
+    //self.hexLabel.text = hello;
 }
 
 - (IBAction)sliderChanged:(id)sender {
